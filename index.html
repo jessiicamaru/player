@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="background-img">
+            <img src="./Item/ImageItem/song1.jpg" alt="" />
+        </div>
+
+        <div class="sidebar">
+            <div class="lookup">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" id="search" placeholder="Look up your song" />
+            </div>
+
+            <div class="description">
+                <span class="song-name">Name</span>
+                <span class="album-name">Album</span>
+            </div>
+
+            <ul class="list"></ul>
+
+            <div class="user-profile">
+                <a href="https://www.instagram.com/_dung.24_/?theme=dark"></a>
+                <div class="avatar">
+                    <img src="./Item/ImageItem/user.jpg" alt="" class="user-avatar" />
+                </div>
+                <div class="name-info">
+                    <div class="user-nickname">Jessiica</div>
+                    <div class="user-name">Dũng Hoàng</div>
+                </div>
+                <div class="setting">
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="media-player">
+            <div class="media-container">
+                <div class="top-container">
+                    <img src="./Item/ImageItem/song1.jpg" alt="" />
+                </div>
+                <div class="bottom-container">
+                    <div class="meadia-player-info">
+                        <div class="meadia-player-song-name">NVMD</div>
+                        <div class="meadia-player-singer-name">Denise Julia</div>
+                    </div>
+
+                    <div class="time">
+                        <span class="current-time">0:00</span>
+                        <span class="duration">0:00</span>
+                    </div>
+                    <div class="seek">
+                        <input type="range" min="0" max="100" step="1" class="seek-tab" value="0" />
+                        <div class="seek-fill"></div>
+                    </div>
+
+                    <div class="control">
+                        <div class="width20px padding_16_16 repeat">
+                            <i class="fa-solid fa-repeat"></i>
+                        </div>
+
+                        <div class="width20px padding_16_16 prev">
+                            <i class="fa-solid fa-backward-step"></i>
+                        </div>
+
+                        <div class="width20px padding_16_16 play">
+                            <i class="fa-solid fa-play"></i>
+                            <!-- <i class="fa-solid fa-pause"></i> -->
+                        </div>
+
+                        <div class="width20px padding_16_16 next">
+                            <i class="fa-solid fa-forward-step"></i>
+                        </div>
+
+                        <div class="width20px padding_16_16 random">
+                            <i class="fa-solid fa-shuffle"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <audio src="" id="audio" preload="metadata"></audio>
+        <script src="./index.js"></script>
+    </body>
+</html>

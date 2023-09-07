@@ -1,0 +1,52 @@
+song 1: 
+	name: NVMD
+	singer: Denise Julia
+	album: NVMD
+song 2: 
+	name: What you know about love
+	singer: Pop Smoke
+	album: Shoot For The Stars Aim For The Moon
+song 3:
+	name: Love language
+	singer: SZA
+	album: SOS
+song 4:
+	name: LOVE. FEAT. ZACARI.
+	singer: Kendrick Lamar, Zacari
+	album: DAMN.
+song5: 
+	name: She Knows
+	singer: Ne-Yo, Juicy J
+	album: Non-Fiction (Deluxe)
+song6:
+	name: Trip
+	singer: Ella Mai
+	album: Ella Mai
+song7:
+	name: Boo'd Up
+	singer: Ella Mai
+	album: READY
+song8:
+	name: Dilemma
+	singer: Nelly, Kelly Rowland
+	album: Nellyville
+song9:
+	name: Finesse - Remix ft. Cardi B
+	singer: Bruno Mars, Cardi B
+	album: Finesse (Remix) [feat. Cardi B]
+song10:
+	name: ghosts 
+	singer: Highvyn
+	album: ghosts
+song11:
+	name: 50 Feat
+	singer: SoMo
+	album: A Beautiful November
+song12:
+	name: Come Through (feat. Chris Brown)
+	singer: H.E.R., Chris Brown
+	album: Come Through (feat. Chris Brown)  
+song13:
+	name: Perceive
+	singer: Doma Cyno
+	album: Perceive
